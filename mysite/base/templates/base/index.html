@@ -1,0 +1,12 @@
+<h1>Bus list</h1>
+
+{% for bus in data %}
+
+<h3>Bus no : {{ bus.bus_no }}</h3>
+<h3>Driver : {{ bus.driver }}</h3>
+<h3>Destination : {{ bus.destination }}</h3>
+<h3>Source : {{ bus.source }}</h3>
+
+<hr />
+
+{% endfor %}
